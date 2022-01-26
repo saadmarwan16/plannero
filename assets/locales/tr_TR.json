@@ -1,0 +1,13 @@
+{
+    "shared": {},
+    "settings_page": {
+        "settings": "Ayarlar",
+        "language": "Dil",
+        "dark_mode": "Karanlık mod",
+        "help": "Yardım",
+        "term_of_use": "Kullanım şartları",
+        "privacy_policy": "Gizlilik politikası",
+        "user_preferences": "Kullanıcı Tercihleri",
+        "about_plannero": "Plannero hakkında"
+    }
+}

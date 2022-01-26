@@ -1,0 +1,99 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3385730804273320853",
+      "lastPropertyId": "3:8542680929259300685",
+      "name": "Category",
+      "properties": [
+        {
+          "id": "1:4053235151788656101",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2757857085145507812",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:8542680929259300685",
+          "name": "color",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6765683118342881173",
+      "lastPropertyId": "9:6248232960723514787",
+      "name": "Task",
+      "properties": [
+        {
+          "id": "1:6690988965994048817",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5359970738153969273",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:4601573777786241135",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:219849865158764398",
+          "name": "isChecked",
+          "type": 1
+        },
+        {
+          "id": "5:1087228655407855742",
+          "name": "isFavorite",
+          "type": 1
+        },
+        {
+          "id": "6:8904634104823411220",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "7:7837165056659467450",
+          "name": "priority",
+          "type": 6
+        },
+        {
+          "id": "8:1666345602974914097",
+          "name": "color",
+          "type": 6
+        },
+        {
+          "id": "9:6248232960723514787",
+          "name": "categoryId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:7236805020169306992",
+          "relationTarget": "Category"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:6765683118342881173",
+  "lastIndexId": "1:7236805020169306992",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

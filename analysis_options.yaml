@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    constant_identifier_names: false
+    must_be_immutable: false
+    prefer_typing_uninitialized_variables: false
+
+
+# https://dart.dev/guides/language/analysis-options
+# https://dart-lang.github.io/linter/lints/index.html.
+# https://dart.dev/tools#ides-and-editors

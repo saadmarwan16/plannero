@@ -1,0 +1,1 @@
+class NoCategoryException implements Exception {}

@@ -1,0 +1,13 @@
+{
+    "shared": {},
+    "settings_page": {
+        "settings": "Settings",
+        "language": "Language",
+        "dark_mode": "Dark mode",
+        "help": "Help",
+        "term_of_use": "Terms of use",
+        "privacy_policy": "Privacy policy",
+        "user_preferences": "User Preferences",
+        "about_plannero": "About Plannero"
+    }
+}
